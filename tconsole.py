@@ -76,7 +76,7 @@ def close_session(update, context):
 
 def main():
     updater = Updater(
-        "1304575778:AAFyPQWO7siSlKky6_ZOu3MjhcU7jRifNmM", use_context=True)
+        "TOKEN", use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
